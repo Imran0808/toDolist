@@ -1,0 +1,55 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.container{
+background-color: rgb(237, 221, 200);
+min-height: 100vh;
+width: 80%;
+margin: auto;
+
+}
+.container>form{
+display: flex;
+flex-direction: column;
+padding: 2rem;
+}
+input,textarea,button{
+    padding:0.5rem;
+    margin:10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.211);
+}
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(91, 91, 91);
+}
+.task{
+    display: flex;
+    margin:30px ;
+    background-color: white;
+    padding: 20px;
+}
+.task>div{
+    width: 100%;
+    
+}
+.task button{
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:crimson;
+    cursor: pointer;
+}
+.task button:hover{
+    background-color:brown;
+}
+.task span{
+    color:rgba(0, 0, 0, 0.601) ;
+}
